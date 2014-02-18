@@ -21,6 +21,7 @@
 		1011AA5E18B3E55A008309A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1011AA4018B3E55A008309A8 /* UIKit.framework */; };
 		1011AA6618B3E55A008309A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1011AA6418B3E55A008309A8 /* InfoPlist.strings */; };
 		1011AA6818B3E55A008309A8 /* Glowing_LabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1011AA6718B3E55A008309A8 /* Glowing_LabelTests.m */; };
+		1011AA7318B3E5E9008309A8 /* UILabel+SOXGlowAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1011AA7218B3E5E9008309A8 /* UILabel+SOXGlowAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		1011AA6318B3E55A008309A8 /* Glowing-LabelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Glowing-LabelTests-Info.plist"; sourceTree = "<group>"; };
 		1011AA6518B3E55A008309A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1011AA6718B3E55A008309A8 /* Glowing_LabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Glowing_LabelTests.m; sourceTree = "<group>"; };
+		1011AA7118B3E5E9008309A8 /* UILabel+SOXGlowAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+SOXGlowAnimation.h"; sourceTree = "<group>"; };
+		1011AA7218B3E5E9008309A8 /* UILabel+SOXGlowAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+SOXGlowAnimation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,7 @@
 				1011AA4E18B3E55A008309A8 /* Main.storyboard */,
 				1011AA5118B3E55A008309A8 /* SOXViewController.h */,
 				1011AA5218B3E55A008309A8 /* SOXViewController.m */,
+				1011AA7618B3EE6A008309A8 /* Label Category */,
 				1011AA5418B3E55A008309A8 /* Images.xcassets */,
 				1011AA4318B3E55A008309A8 /* Supporting Files */,
 			);
@@ -150,6 +154,15 @@
 				1011AA6418B3E55A008309A8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1011AA7618B3EE6A008309A8 /* Label Category */ = {
+			isa = PBXGroup;
+			children = (
+				1011AA7118B3E5E9008309A8 /* UILabel+SOXGlowAnimation.h */,
+				1011AA7218B3E5E9008309A8 /* UILabel+SOXGlowAnimation.m */,
+			);
+			name = "Label Category";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1011AA4918B3E55A008309A8 /* main.m in Sources */,
+				1011AA7318B3E5E9008309A8 /* UILabel+SOXGlowAnimation.m in Sources */,
 				1011AA4D18B3E55A008309A8 /* SOXAppDelegate.m in Sources */,
 				1011AA5318B3E55A008309A8 /* SOXViewController.m in Sources */,
 			);
