@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1011AA3D18B3E55A008309A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1011AA3C18B3E55A008309A8 /* Foundation.framework */; };
+		1011AA3F18B3E55A008309A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1011AA3E18B3E55A008309A8 /* CoreGraphics.framework */; };
+		1011AA4118B3E55A008309A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1011AA4018B3E55A008309A8 /* UIKit.framework */; };
+		1011AA4718B3E55A008309A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1011AA4518B3E55A008309A8 /* InfoPlist.strings */; };
+		1011AA4918B3E55A008309A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1011AA4818B3E55A008309A8 /* main.m */; };
+		1011AA4D18B3E55A008309A8 /* SOXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1011AA4C18B3E55A008309A8 /* SOXAppDelegate.m */; };
+		1011AA5018B3E55A008309A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1011AA4E18B3E55A008309A8 /* Main.storyboard */; };
+		1011AA5318B3E55A008309A8 /* SOXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1011AA5218B3E55A008309A8 /* SOXViewController.m */; };
+		1011AA5518B3E55A008309A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1011AA5418B3E55A008309A8 /* Images.xcassets */; };
+		1011AA5C18B3E55A008309A8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1011AA5B18B3E55A008309A8 /* XCTest.framework */; };
+		1011AA5D18B3E55A008309A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1011AA3C18B3E55A008309A8 /* Foundation.framework */; };
+		1011AA5E18B3E55A008309A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1011AA4018B3E55A008309A8 /* UIKit.framework */; };
+		1011AA6618B3E55A008309A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1011AA6418B3E55A008309A8 /* InfoPlist.strings */; };
+		1011AA6818B3E55A008309A8 /* Glowing_LabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1011AA6718B3E55A008309A8 /* Glowing_LabelTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1011AA5F18B3E55A008309A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1011AA3118B3E55A008309A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1011AA3818B3E55A008309A8;
+			remoteInfo = "Glowing-Label";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1011AA3918B3E55A008309A8 /* Glowing-Label.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Glowing-Label.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1011AA3C18B3E55A008309A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1011AA3E18B3E55A008309A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1011AA4018B3E55A008309A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1011AA4418B3E55A008309A8 /* Glowing-Label-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Glowing-Label-Info.plist"; sourceTree = "<group>"; };
+		1011AA4618B3E55A008309A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1011AA4818B3E55A008309A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1011AA4A18B3E55A008309A8 /* Glowing-Label-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Glowing-Label-Prefix.pch"; sourceTree = "<group>"; };
+		1011AA4B18B3E55A008309A8 /* SOXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SOXAppDelegate.h; sourceTree = "<group>"; };
+		1011AA4C18B3E55A008309A8 /* SOXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SOXAppDelegate.m; sourceTree = "<group>"; };
+		1011AA4F18B3E55A008309A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1011AA5118B3E55A008309A8 /* SOXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SOXViewController.h; sourceTree = "<group>"; };
+		1011AA5218B3E55A008309A8 /* SOXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SOXViewController.m; sourceTree = "<group>"; };
+		1011AA5418B3E55A008309A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1011AA5A18B3E55A008309A8 /* Glowing-LabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Glowing-LabelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1011AA5B18B3E55A008309A8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1011AA6318B3E55A008309A8 /* Glowing-LabelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Glowing-LabelTests-Info.plist"; sourceTree = "<group>"; };
+		1011AA6518B3E55A008309A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1011AA6718B3E55A008309A8 /* Glowing_LabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Glowing_LabelTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1011AA3618B3E55A008309A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1011AA3F18B3E55A008309A8 /* CoreGraphics.framework in Frameworks */,
+				1011AA4118B3E55A008309A8 /* UIKit.framework in Frameworks */,
+				1011AA3D18B3E55A008309A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1011AA5718B3E55A008309A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1011AA5C18B3E55A008309A8 /* XCTest.framework in Frameworks */,
+				1011AA5E18B3E55A008309A8 /* UIKit.framework in Frameworks */,
+				1011AA5D18B3E55A008309A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1011AA3018B3E559008309A8 = {
+			isa = PBXGroup;
+			children = (
+				1011AA4218B3E55A008309A8 /* Glowing-Label */,
+				1011AA6118B3E55A008309A8 /* Glowing-LabelTests */,
+				1011AA3B18B3E55A008309A8 /* Frameworks */,
+				1011AA3A18B3E55A008309A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1011AA3A18B3E55A008309A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1011AA3918B3E55A008309A8 /* Glowing-Label.app */,
+				1011AA5A18B3E55A008309A8 /* Glowing-LabelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1011AA3B18B3E55A008309A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1011AA3C18B3E55A008309A8 /* Foundation.framework */,
+				1011AA3E18B3E55A008309A8 /* CoreGraphics.framework */,
+				1011AA4018B3E55A008309A8 /* UIKit.framework */,
+				1011AA5B18B3E55A008309A8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1011AA4218B3E55A008309A8 /* Glowing-Label */ = {
+			isa = PBXGroup;
+			children = (
+				1011AA4B18B3E55A008309A8 /* SOXAppDelegate.h */,
+				1011AA4C18B3E55A008309A8 /* SOXAppDelegate.m */,
+				1011AA4E18B3E55A008309A8 /* Main.storyboard */,
+				1011AA5118B3E55A008309A8 /* SOXViewController.h */,
+				1011AA5218B3E55A008309A8 /* SOXViewController.m */,
+				1011AA5418B3E55A008309A8 /* Images.xcassets */,
+				1011AA4318B3E55A008309A8 /* Supporting Files */,
+			);
+			path = "Glowing-Label";
+			sourceTree = "<group>";
+		};
+		1011AA4318B3E55A008309A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1011AA4418B3E55A008309A8 /* Glowing-Label-Info.plist */,
+				1011AA4518B3E55A008309A8 /* InfoPlist.strings */,
+				1011AA4818B3E55A008309A8 /* main.m */,
+				1011AA4A18B3E55A008309A8 /* Glowing-Label-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1011AA6118B3E55A008309A8 /* Glowing-LabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				1011AA6718B3E55A008309A8 /* Glowing_LabelTests.m */,
+				1011AA6218B3E55A008309A8 /* Supporting Files */,
+			);
+			path = "Glowing-LabelTests";
+			sourceTree = "<group>";
+		};
+		1011AA6218B3E55A008309A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1011AA6318B3E55A008309A8 /* Glowing-LabelTests-Info.plist */,
+				1011AA6418B3E55A008309A8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1011AA3818B3E55A008309A8 /* Glowing-Label */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1011AA6B18B3E55A008309A8 /* Build configuration list for PBXNativeTarget "Glowing-Label" */;
+			buildPhases = (
+				1011AA3518B3E55A008309A8 /* Sources */,
+				1011AA3618B3E55A008309A8 /* Frameworks */,
+				1011AA3718B3E55A008309A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Glowing-Label";
+			productName = "Glowing-Label";
+			productReference = 1011AA3918B3E55A008309A8 /* Glowing-Label.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1011AA5918B3E55A008309A8 /* Glowing-LabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1011AA6E18B3E55A008309A8 /* Build configuration list for PBXNativeTarget "Glowing-LabelTests" */;
+			buildPhases = (
+				1011AA5618B3E55A008309A8 /* Sources */,
+				1011AA5718B3E55A008309A8 /* Frameworks */,
+				1011AA5818B3E55A008309A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1011AA6018B3E55A008309A8 /* PBXTargetDependency */,
+			);
+			name = "Glowing-LabelTests";
+			productName = "Glowing-LabelTests";
+			productReference = 1011AA5A18B3E55A008309A8 /* Glowing-LabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1011AA3118B3E55A008309A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SOX;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = SpagOSX;
+				TargetAttributes = {
+					1011AA5918B3E55A008309A8 = {
+						TestTargetID = 1011AA3818B3E55A008309A8;
+					};
+				};
+			};
+			buildConfigurationList = 1011AA3418B3E55A008309A8 /* Build configuration list for PBXProject "Glowing-Label" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1011AA3018B3E559008309A8;
+			productRefGroup = 1011AA3A18B3E55A008309A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1011AA3818B3E55A008309A8 /* Glowing-Label */,
+				1011AA5918B3E55A008309A8 /* Glowing-LabelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1011AA3718B3E55A008309A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1011AA5518B3E55A008309A8 /* Images.xcassets in Resources */,
+				1011AA4718B3E55A008309A8 /* InfoPlist.strings in Resources */,
+				1011AA5018B3E55A008309A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1011AA5818B3E55A008309A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1011AA6618B3E55A008309A8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1011AA3518B3E55A008309A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1011AA4918B3E55A008309A8 /* main.m in Sources */,
+				1011AA4D18B3E55A008309A8 /* SOXAppDelegate.m in Sources */,
+				1011AA5318B3E55A008309A8 /* SOXViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1011AA5618B3E55A008309A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1011AA6818B3E55A008309A8 /* Glowing_LabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1011AA6018B3E55A008309A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1011AA3818B3E55A008309A8 /* Glowing-Label */;
+			targetProxy = 1011AA5F18B3E55A008309A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1011AA4518B3E55A008309A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1011AA4618B3E55A008309A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1011AA4E18B3E55A008309A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1011AA4F18B3E55A008309A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1011AA6418B3E55A008309A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1011AA6518B3E55A008309A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1011AA6918B3E55A008309A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1011AA6A18B3E55A008309A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1011AA6C18B3E55A008309A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Glowing-Label/Glowing-Label-Prefix.pch";
+				INFOPLIST_FILE = "Glowing-Label/Glowing-Label-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1011AA6D18B3E55A008309A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Glowing-Label/Glowing-Label-Prefix.pch";
+				INFOPLIST_FILE = "Glowing-Label/Glowing-Label-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1011AA6F18B3E55A008309A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Glowing-Label.app/Glowing-Label";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Glowing-Label/Glowing-Label-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Glowing-LabelTests/Glowing-LabelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1011AA7018B3E55A008309A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Glowing-Label.app/Glowing-Label";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Glowing-Label/Glowing-Label-Prefix.pch";
+				INFOPLIST_FILE = "Glowing-LabelTests/Glowing-LabelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1011AA3418B3E55A008309A8 /* Build configuration list for PBXProject "Glowing-Label" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1011AA6918B3E55A008309A8 /* Debug */,
+				1011AA6A18B3E55A008309A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1011AA6B18B3E55A008309A8 /* Build configuration list for PBXNativeTarget "Glowing-Label" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1011AA6C18B3E55A008309A8 /* Debug */,
+				1011AA6D18B3E55A008309A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1011AA6E18B3E55A008309A8 /* Build configuration list for PBXNativeTarget "Glowing-LabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1011AA6F18B3E55A008309A8 /* Debug */,
+				1011AA7018B3E55A008309A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1011AA3118B3E55A008309A8 /* Project object */;
+}
