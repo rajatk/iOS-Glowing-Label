@@ -8,6 +8,8 @@
 
 #import "SOXViewController.h"
 
+#import "UILabel+SOXGlowAnimation.h"
+
 @interface SOXViewController ()
 
 @end
@@ -18,6 +20,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [self.glowLabel addGlowEffectWithWidth:40.0 duration:1.5];
 }
 
 - (void)didReceiveMemoryWarning
