@@ -10,4 +10,6 @@
 
 @interface SOXViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *glowLabel;
+
 @end
